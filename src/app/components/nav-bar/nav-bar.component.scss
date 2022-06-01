@@ -2,14 +2,18 @@
     padding: 12px 0px 0px 12px;
     display: flex;
     background: #004a79;
-    color: white;
+    color:white;
+
     border-bottom: 3px solid rgba(0,0,0, 0.1);
+
 }
+
 
 h1 {
     font-size: 36px;
     margin-top: 5px;
     display: inline;
+    color: white;
 }
 
 search-bar {
@@ -19,7 +23,7 @@ search-bar {
 a {
     padding: 8px;
     height: 12px;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 a:hover {

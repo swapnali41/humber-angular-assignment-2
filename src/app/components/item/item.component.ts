@@ -1,4 +1,6 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { ProductsService } from 'src/app/services/products.service';
 
 @Component({
   selector: 'item',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ItemComponent implements OnInit {
 
-  constructor() { }
+  constructor(  ) {
 
+
+   }
+getlistofproducts(){
+ //return this.http.get ('/assets/product-data.json');
+}
   ngOnInit(): void {
+
+     }
   }
 
-}
+
